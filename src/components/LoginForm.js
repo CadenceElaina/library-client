@@ -34,7 +34,7 @@ const LoginForm = ({ setError, setToast, setToken }) => {
 
   return (
     <div className="container">
-      <p>login with username: mluukkai password: secret</p>
+      <p>login with username: newUser password: secret</p>
       <form onSubmit={submit}>
         <div>
           username{" "}
